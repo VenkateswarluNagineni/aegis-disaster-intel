@@ -20,6 +20,8 @@ data/
 *.parquet
 faiss_index/
 *.faiss
+# ...but keep small recorded fixtures used by tests
+!tests/fixtures/*.geojson
 
 # Secrets / API keys
 .env

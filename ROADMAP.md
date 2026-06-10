@@ -9,7 +9,7 @@ design note. The daily build routine picks up the next unchecked phase.
 - [x] **Phase 0 — Scaffold.** Packaging, geospatial risk primitives (haversine,
   distance-decay proximity, asset risk), canonical `HazardEvent` schema + dedup key,
   tests, ruff, CI, Docker skeleton, roadmap.
-- [ ] **Phase 1 — USGS earthquake ingestor.** Pull the GeoJSON feed, normalize to
+- [x] **Phase 1 — USGS earthquake ingestor.** Pull the GeoJSON feed, normalize to
   `HazardEvent`, tests against a recorded fixture.
 - [ ] **Phase 2 — NASA FIRMS wildfire ingestor.** Active-fire feed → `HazardEvent`
   (handles FRP/confidence fields).
