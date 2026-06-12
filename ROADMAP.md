@@ -11,7 +11,7 @@ design note. The daily build routine picks up the next unchecked phase.
   tests, ruff, CI, Docker skeleton, roadmap.
 - [x] **Phase 1 — USGS earthquake ingestor.** Pull the GeoJSON feed, normalize to
   `HazardEvent`, tests against a recorded fixture.
-- [ ] **Phase 2 — NASA FIRMS wildfire ingestor.** Active-fire feed → `HazardEvent`
+- [x] **Phase 2 — NASA FIRMS wildfire ingestor.** Active-fire feed → `HazardEvent`
   (handles FRP/confidence fields).
 - [ ] **Phase 3 — NOAA / NWS alerts ingestor.** Severe-weather alerts → `HazardEvent`.
 
