@@ -1,0 +1,72 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aaa",
+      "properties": {
+        "id": "urn:oid:2.49.0.1.840.0.aaa",
+        "event": "Severe Thunderstorm Warning",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "onset": "2026-06-08T14:00:00-05:00",
+        "effective": "2026-06-08T13:55:00-05:00",
+        "sent": "2026-06-08T13:55:00-05:00",
+        "areaDesc": "Sample County, KS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-100.0, 40.0], [-99.0, 40.0], [-99.0, 41.0], [-100.0, 41.0], [-100.0, 40.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bbb",
+      "properties": {
+        "id": "urn:oid:2.49.0.1.840.0.bbb",
+        "event": "Flash Flood Warning",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "onset": "2026-06-08T16:00:00-04:00",
+        "areaDesc": "Sample Parish, LA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-95.0, 30.0], [-94.0, 30.0], [-94.0, 31.0], [-95.0, 31.0], [-95.0, 30.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ccc",
+      "properties": {
+        "id": "urn:oid:2.49.0.1.840.0.ccc",
+        "event": "Tornado Warning",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "sent": "2026-06-08T18:30:00-05:00",
+        "areaDesc": "Sample County, OK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.0, 35.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ddd",
+      "properties": {
+        "id": "urn:oid:2.49.0.1.840.0.ddd",
+        "event": "Special Weather Statement",
+        "severity": "Minor",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "sent": "2026-06-08T20:00:00-05:00",
+        "areaDesc": "Coastal zones (zone-based, no polygon)"
+      },
+      "geometry": null
+    }
+  ]
+}
