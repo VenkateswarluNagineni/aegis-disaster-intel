@@ -13,7 +13,7 @@ design note. The daily build routine picks up the next unchecked phase.
   `HazardEvent`, tests against a recorded fixture.
 - [x] **Phase 2 — NASA FIRMS wildfire ingestor.** Active-fire feed → `HazardEvent`
   (handles FRP/confidence fields).
-- [ ] **Phase 3 — NOAA / NWS alerts ingestor.** Severe-weather alerts → `HazardEvent`.
+- [x] **Phase 3 — NOAA / NWS alerts ingestor.** Severe-weather alerts → `HazardEvent`.
 
 ## Event-driven core
 - [ ] **Phase 4 — Change-detection + dedup store.** State by `dedup_key`; only new/changed
